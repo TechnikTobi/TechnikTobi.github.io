@@ -1,0 +1,21 @@
+- A short introduction of who I am
+- What I am currently doing
+- Past projects
+    - Multiplayer Sudoku
+    - MoDoc Software
+    - little_exif
+- Papers
+    - In general: PDFs! Summaries!
+    - VWA
+    - JS on the AGC
+        - YouTube Video!
+    - Bachelor Thesis 
+- How to contact me
+    - E-Mail
+    - Twitter
+    - Instagram
+    - GitHub
+
+
+Ideas: 
+- A dynamic field which shows my most recent commits? 
