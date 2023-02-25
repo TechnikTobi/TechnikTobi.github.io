@@ -1,0 +1,24 @@
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+    font-family: 'Cardo', serif;
+}
+
+h1 {
+    font-size: 8em;
+    /* font-family: 'Cardo', serif; */
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+
+    margin-bottom: 0;;
+}
+
+h4 {
+    font-size: 1em;
+    /* font-family: 'Cardo', serif; */
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+
+    margin-top: 0;
+}
+
