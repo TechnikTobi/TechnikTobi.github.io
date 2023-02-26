@@ -38,21 +38,73 @@ h4
 
 }
 
-#tp_start
+.tp_bordered
 {
-    /* background-color: rgba(255, 255, 255, 0.85); */
-
-    box-shadow: 1px 1px #202020;
     border-color: #202020;
+
     border: 1px solid;
+    border-radius: 0px;
 
-    margin-top: 5px;
-    
-
-    padding-right: 5px;
-    padding-left: 5px;
+    /* 
+    border: 1px transparent;
+    border-radius: 15px; 
+    */
 }
 
+.tp_shadow
+{
+    /* box-shadow: 0px 0px 15px #202020; */
+    box-shadow: 2px 2px #202020;
+}
+
+
+#tp_start
+{
+    background-image: url("./img/tobi.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255,.3);
+    background-blend-mode: lighten;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    aspect-ratio: 1 / 1;
+
+    padding: 15px;
+    display: flex;
+}
+
+#tp_start_text h1
+{
+    /* text-shadow: 2px 2px black; */
+}
+
+#tp_logo
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+#tp_logo img
+{
+    /* box-shadow: 0px 0px 8px 1px #202020; */
+    box-shadow: 2px 2px #202020;
+}
+
+#tp_logo img:hover
+{
+    box-shadow:
+        0 0 40px 10px white,
+        0 0 60px 20px magenta,
+        0 0 80px 30px cyan;
+}
+
+#tp_start_text
+{
+    align-self: flex-end;
+}
 
 
 
