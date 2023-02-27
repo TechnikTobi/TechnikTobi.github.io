@@ -108,6 +108,47 @@ h4
 
 
 
+.tp_box_header
+{
+    text-align: center;
+    width: 100%;
+    /* border-bottom: 1px dashed; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: repeating-linear-gradient(
+        0deg,
+        black,
+        black 2px,
+        white 2px,
+        white 5px
+    );
+}
+
+.tp_box_header p
+{
+    display: inline;
+    background-color: white;
+}
+
+.tp_quote h4 
+{
+    font-size: 1em;
+    font-style: italic;
+    /* font-family: 'Hind', sans-serif; */
+    font-family: 'Climate Crisis', cursive;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-weight: 700;
+    color: #202020;
+}
+
+.tp_quote p
+{
+    font-size: 0.9em;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: right;
+}
+
+
 
 
 
@@ -149,6 +190,18 @@ h4
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
