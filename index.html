@@ -28,6 +28,22 @@
         <!-- Font: Headline like -->
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
 
+        <!-- Another Font - use with: font-family: 'Montserrat', sans-serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Another Serif Font - use with: font-family: 'Gloock', serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+
+        <!-- Font Recommendations by Adobe -->
+
+        <!-- Font: Playfair - use with: font-family: 'Playfair Display', serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Font: Open Sans - use with: font-family: 'Open Sans', sans-serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+
         <!-- Bootstrap Stuff -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -37,8 +53,10 @@
 
     <body>
 
+        <main>
+
         <div id="everything" class="container">
-            <div id="tp_start" class="animated fadeInLeft container tp_bordered tp_shadow">
+            <div id="tp_start" class="animated fadeInLeft container tp_box tp_bordered tp_shadow">
                 
                 <div id="tp_logo">
                     <img src="./img/tp.png" width="42px">
@@ -48,14 +66,14 @@
 
                 <div id="tp_start_text">
                     <h1 class="animated fadeInLeft display-1">hello.</h1>
-                    <h4 class="animated fadeInLeft">This site is currently under construction.</h4>
+                    <!-- <h4 class="animated fadeInLeft">This site is currently under construction.</h4> -->
                 </div>
             </div>
 
-            <div id="tp_about" class="animated fadeInLeft container tp_bordered tp_shadow">
+            <div id="tp_about" class="animated fadeInLeft container tp_box tp_bordered tp_shadow">
 
                 <div class="tp_box_header">
-                    <p>Some Quotes</p>
+                    <p>some quotes</p>
                 </div>
  
 
@@ -101,18 +119,57 @@
                     <h4 class="animated fadeInLeft">
                         "In my opinion, he ranks among the top 5% of computer science students at the University of Vienna."
                     </h4>
-                    <p>
-                        <b>- Dr. Lorem Ipsum</b>
-                        <br> 
-                        University of Vienna
-                    </p>
+                    <div class="tp_quote_author">
+                        <h5>
+                            - Dr. Moritz Grosse-Wentrup
+                        </h5>
+                        <h6>
+                            Head of Research Group Neuroinformatics, <br>
+                            University of Vienna
+                        </h6>    
+                    </div>                    
                 </div>
 
-                <h4>Hello</h4>
+                <div class="tp_divider"></div>
 
-                
-           
+                <div class="animated fadeInLeft tp_quote">
+                    <h4 class="animated fadeInLeft">
+                        "Tobias always strove for the most challenging exercises presented to him." - "[...] continously pushing his own boundaries."
+                    </h4>
+                    <div class="tp_quote_author">
+                        <h5>
+                            - Dr. Erich Schikuta
+                        </h5>
+                        <h6>
+                            Head of Research Group Workflow Systems and Technology, <br>
+                            University of Vienna
+                        </h6>    
+                    </div>                    
+                </div>
+
+                <div class="tp_divider"></div>
+
+                <div class="animated fadeInLeft tp_quote">
+                    <h4 class="animated fadeInLeft">
+                        "He's right - even when I say he isn't."
+                    </h4>
+                    <div class="tp_quote_author">
+                        <h5>
+                            - Mom
+                        </h5>
+                    </div>                    
+                </div>
+
+                <p>
+                    
+                </p>
             </div>
+        </div>
+        </main>
+
+        <footer>
+            This is my footer.
+        </footer>
     
 
 

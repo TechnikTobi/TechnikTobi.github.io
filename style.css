@@ -1,9 +1,5 @@
 html 
 {
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
-    font-family: 'Cardo', serif;
-
     /* NeXT */
     /* background-color: rgb(85, 86, 116); */
     
@@ -38,6 +34,11 @@ h4
     max-width: 500px;
 }
 
+.tp_box
+{
+    margin-bottom: 20px;
+}
+
 .tp_bordered
 {
     border-color: #202020;
@@ -67,7 +68,6 @@ h4
     background-blend-mode: lighten;
 
     margin-top: 20px;
-    margin-bottom: 20px;
     aspect-ratio: 1 / 1;
 
     padding: 15px;
@@ -110,45 +110,89 @@ h4
 
 .tp_box_header
 {
-    text-align: center;
     width: 100%;
-    /* border-bottom: 1px dashed; */
+    border-bottom: 1px solid;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: repeating-linear-gradient(
-        0deg,
-        black,
-        black 2px,
-        white 2px,
-        white 5px
-    );
 }
 
 .tp_box_header p
 {
     display: inline;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Climate Crisis', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 300;
     background-color: white;
+}
+
+.tp_divider
+{
+    margin-top: 10px;
+    border-top: 0.75px dashed;
+    margin-bottom: 10px;
 }
 
 .tp_quote h4 
 {
+    /* 
+    font-family: 'Playfair Display', serif;
     font-size: 1em;
-    font-style: italic;
-    /* font-family: 'Hind', sans-serif; */
-    font-family: 'Climate Crisis', cursive;
-    /* font-family: 'Cormorant Garamond', serif; */
-    font-weight: 700;
+    font-weight: 600;
+    font-style: italic; 
+    */
+
+    font-family: 'Gloock', serif;
+    font-weight: 100;
+    font-size: 1em;
+    font-style: italic; 
+   
     color: #202020;
 }
 
-.tp_quote p
+.tp_quote_author
 {
-    font-size: 0.9em;
-    font-family: 'Cormorant Garamond', serif;
+    width: 80%;
+    margin-left: 20%; 
+
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+
     text-align: right;
 }
 
+.tp_quote h6,
+.tp_quote h5
+{
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    margin-bottom: 0;
+}
 
+.tp_quote h5
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+.tp_quote h6
+{
+    font-size: 0.9em;
+}
+
+.tp_text
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+
+footer
+{
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
 
 
 
