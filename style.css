@@ -124,7 +124,6 @@ h4
     font-family: 'Climate Crisis', cursive;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
-    background-color: white;
 }
 
 .tp_divider
@@ -184,9 +183,14 @@ h4
 
 .tp_text
 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif;
     font-size: 0.9em;
+    font-weight: 400; */
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     font-weight: 400;
+    color: #202020;
 }
 
 
